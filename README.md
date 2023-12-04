@@ -26,7 +26,7 @@ npm install -g live-server
 
 ## What's included?
 
-### `home.html``
+### `home.html`
 
 An example homepage for a Sportsmind-like chat, including examples.
 
