@@ -1,9 +1,6 @@
-# HTML Tailwind starter
+# HTML Sportsmind Template
 
-This start was build for people not needing any framework.
-It's sometimes enough to just have a plain HTML file, but leverage the power of Tailwind CSS.
-
-The project uses the Tailwind purge to make the files as clean as possible.
+These templates are to show examples of a Sportsmind API setup, independent of framework. Components are styled using tailwindcss.
 
 ## Installation
 
@@ -19,20 +16,22 @@ Next up we can run the dev server:
 npm run dev
 ```
 
-And your website will start up.
+And the example website will start up.
 
-**Note - make sure to install live-server globally as a dependancy or it will not work**
+**Note - You will need live-server globally as a dependancy. If you have not installed live-server, use the command below:**
 
 ```bash
 npm install -g live-server
 ```
 
-## Modifying the project
+## What's included?
 
-You can then modify the `tailwind.config.js` for your own custom colors if needed
-And modify the `index.html` inside the `src` directory.
+### `home.html``
 
-## Read more
+An example homepage for a Sportsmind-like chat, including examples.
 
-If you're interested to read more about this project.
-Check out the article I wrote on [HTML Tailwind starter](https://daily-dev-tips.com/posts/plain-html-starter-with-tailwind-css/)
+## API Basics
+
+Our API is new and very rudimentary. We have one endpoing, our `/chat` endpoint. `/chat` takes in your API key and a question string as arguments, and returns an answer string.
+
+If you intend to impose limits on your users with how often/much they can submit chats, you will need to handle that logic on your side before calling our API.
